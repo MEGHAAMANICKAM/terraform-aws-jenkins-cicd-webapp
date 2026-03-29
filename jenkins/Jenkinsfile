@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/YOUR-USERNAME/YOUR-REPO.git'
+                git 'https://github.com/MEGHAAMANICKAM/terraform-aws-jenkins-cicd-webapp.git'
             }
         }
 

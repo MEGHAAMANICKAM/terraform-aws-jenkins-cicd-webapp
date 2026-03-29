@@ -28,7 +28,7 @@ GitHub → Jenkins → EC2 → Nginx
 
 ### 1. Clone the repository
 
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
+git clone https://github.com/MEGHAAMANICKAM/terraform-aws-jenkins-cicd-webapp.git
 
 ### 2. Provision Infrastructure
 
