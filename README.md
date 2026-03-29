@@ -38,7 +38,7 @@ terraform apply
 
 ### 3. Access Jenkins
 
-http://<EC2-PUBLIC-IP>:8080
+http://<<EC2-PUBLIC-IP>>:8080
 
 ### 4. Run Pipeline
 
