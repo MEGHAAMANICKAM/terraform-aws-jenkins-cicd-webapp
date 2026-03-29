@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Clone Repo') {
+            steps {
+                git 'https://github.com/YOUR-USERNAME/YOUR-REPO.git'
+            }
+        }
+
+        stage('Deploy to EC2') {
+            steps {
+                sh '''
+                cp app/index.html /home/ec2-user/
+
+                ssh -o StrictHostKeyChecking=no ec2-user@localhost << EOF
+                sudo cp /home/ec2-user/index.html /usr/share/nginx/html/index.html
+                sudo systemctl restart nginx
+                EOF
+                '''
+            }
+        }
+    }
+}
