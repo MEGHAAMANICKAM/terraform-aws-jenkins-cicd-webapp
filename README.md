@@ -1,6 +1,6 @@
-# 🚀 AWS CI/CD Pipeline using Terraform & Jenkins
+#  AWS CI/CD Pipeline using Terraform & Jenkins
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates a complete CI/CD pipeline using Terraform, Jenkins, and AWS EC2.
 
@@ -8,13 +8,13 @@ Whenever code is pushed to GitHub, Jenkins automatically deploys the updated web
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 GitHub → Jenkins → EC2 → Nginx
 
 ---
 
-## ⚙️ Tools Used
+##  Tools Used
 
 * AWS EC2
 * Terraform
@@ -24,7 +24,7 @@ GitHub → Jenkins → EC2 → Nginx
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the repository
 
@@ -47,7 +47,7 @@ http://EC2-PUBLIC-IP:8080
 
 ---
 
-## 🔄 CI/CD Workflow
+##  CI/CD Workflow
 
 1. Push code to GitHub
 2. Jenkins triggers pipeline
@@ -56,12 +56,12 @@ http://EC2-PUBLIC-IP:8080
 
 ---
 
-## 💸 Cleanup
+##  Cleanup
 
 terraform destroy
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 Meghaa
